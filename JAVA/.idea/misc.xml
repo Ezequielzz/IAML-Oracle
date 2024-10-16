@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/markov/pom.xml" />
+        <option value="$PROJECT_DIR$/calculadora/pom.xml" />
+        <option value="$PROJECT_DIR$/biblioteca_dao_junit/pom.xml" />
+        <option value="$PROJECT_DIR$/inventarioprodutosjunit/pom.xml" />
+        <option value="$PROJECT_DIR$/exemplo_dados_informacoes/pom.xml" />
+        <option value="$PROJECT_DIR$/exemplo_mnist_redes_neurais/pom.xml" />
+        <option value="$PROJECT_DIR$/exercicio_dados_informacoes/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,28 @@
+// Diagrama de Casos de Uso - Sistema de Gerenciamento de Biblioteca
+digraph {
+	rankdir=LR size=10
+	Usuario [label="Usuário" shape=actor]
+	Bibliotecario [label="Bibliotecário" shape=actor]
+	CadastrarUsuario [label="Cadastrar Usuário"]
+	Login [label=Login]
+	BuscarLivro [label="Buscar Livro"]
+	VisualizarDetalhesLivro [label="Visualizar Detalhes do Livro"]
+	RealizarEmprestimo [label="Realizar Empréstimo"]
+	VisualizarHistoricoEmprestimos [label="Visualizar Histórico de Empréstimos"]
+	DevolverLivro [label="Devolver Livro"]
+	GerenciarLivros [label="Gerenciar Livros"]
+	GerenciarUsuarios [label="Gerenciar Usuários"]
+	ConsultarRelatorios [label="Consultar Relatórios"]
+	Usuario -> CadastrarUsuario
+	Bibliotecario -> CadastrarUsuario
+	Usuario -> Login
+	Bibliotecario -> Login
+	Usuario -> BuscarLivro
+	Usuario -> VisualizarDetalhesLivro
+	Usuario -> RealizarEmprestimo
+	Usuario -> VisualizarHistoricoEmprestimos
+	Usuario -> DevolverLivro
+	Bibliotecario -> GerenciarLivros
+	Bibliotecario -> GerenciarUsuarios
+	Bibliotecario -> ConsultarRelatorios
+}

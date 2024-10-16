@@ -1,0 +1,19 @@
+{
+    "usuarios": [
+        {
+            "nome": "Teste1",
+            "idade": 18,
+            "cidade": "SBO"
+        },
+        {
+            "nome": "Teste2",
+            "idade": 17,
+            "cidade": "Americana"
+        },
+        {
+            "nome": "Teste3",
+            "idade": 20,
+            "cidade": "Limeira"
+        }
+    ]
+}
